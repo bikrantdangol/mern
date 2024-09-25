@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- internal css / embeded css -->
+     <style>
+        div{
+            background-color: blue !important
+        }
+     </style>
+
+     <link rel="stylesheet" href="index.css">
+
+</head>
+<body>
+    <div style="background-color: gray;">
+    <form class="regesterform">
+        <label for="name">Your Full Name</label><br>
+        <input type="text" placeholder="Your Name" id="name" name="name" value="Bikrant Dangol"><br><br>
+        
+        <label for="Address">Your Address</label><br>
+        <input type="text" placeholder="Address"><br><br>
+        
+        
+        <label for="contact">Your Contact</label><br>
+        <input type="text" placeholder="Phone No."><br><br>
+        
+        <label for="email">Your Email</label><br>
+        <input type="email" placeholder="Email"><br><br>
+        
+        <label for="date">Your DOB</label><br>
+        <input type="date" placeholder="Date of Birth"><br><br>
+
+        <label for="gender">Your Gender</label><br>
+        <select name="gender" id="">
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+        </select><br><br>
+        <input type="file"><br><br>
+
+        <label for="query"> Feedback</label><br>
+        <textarea name="query" id="query" cols="100" rows="6"></textarea><br><br>
+
+        <button type="submit">Please submit</button>
+  </form>
+</div>
+</body>
+</html>
