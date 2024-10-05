@@ -1,6 +1,9 @@
-@import url(form.css);
+/* @import url(form.css); */
+@import url(variable.css);
 
-div{
-    background-color: red;
-    padding: 30px;
+.main-div{
+    background:var(--background);
+    margin: 60px 30px;
+    
 }
+
