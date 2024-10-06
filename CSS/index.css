@@ -1,9 +1,25 @@
 /* @import url(form.css); */
 @import url(variable.css);
 
-.main-div{
+div.main-div{
     background:var(--background);
     margin: 60px 30px;
+    position: relative;
     
 }
 
+form input[type="text"]{
+    color: red;
+    padding: 20px;
+}
+
+form.main-div{
+    background:var(--background);
+    margin: 60px 30px;
+    padding: 50px;
+}
+
+#second-div{
+    background:rgb(62, 59, 59);
+    color: aliceblue;
+}
