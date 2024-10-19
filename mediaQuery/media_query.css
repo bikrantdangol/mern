@@ -1,0 +1,30 @@
+.media_query{
+    background-color: black;
+    height: 200px;
+    width: 600px;
+    font-size: 10px;
+    color: aliceblue;
+    text-align: center;
+    margin: auto;
+    border: 5px solid gold;
+    padding: 20px;
+}
+
+.media_query h3{
+    text-align: center;
+    text-decoration: underline;
+    font-size: 30px !important;
+}
+
+/* media query syntax */
+@media only screen and (max-width: 768px) {
+    .media_query {
+        width: 300px;
+        font-size: 11px;
+        background-color: red;
+    }
+}
+
+/* @media only screen and (max-width: 1400px) {
+
+} */
