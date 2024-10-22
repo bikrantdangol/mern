@@ -1,3 +1,9 @@
-.inline{
+/* .inline{
     display: inline;
-}
+} */
+ .btn{
+    border-radius: 50px;
+ }
+ .btn-D{
+    background-color: aqua;
+ }
