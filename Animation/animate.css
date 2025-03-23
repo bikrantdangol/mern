@@ -21,13 +21,13 @@
 
 /* animation name */
 @keyframes increasefontsize {
-    /* from{
+    from{
         font-size: 1rem;
     }
     to{
         font-size: 3rem;
         font-weight: 800;
-    } */
+    }
     0%{
         font-size: 3rem;
         font-weight: 800;
